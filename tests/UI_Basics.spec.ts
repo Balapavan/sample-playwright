@@ -112,7 +112,7 @@ test('Dropdown', async({page}) => {
     //await page.pause();
 
 });
-
+/* Handle multiple pages in browser */
 test('handle multiple web pages', async({browser})=>{
     const context = await browser.newContext();
     const page = await context.newPage();
